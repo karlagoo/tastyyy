@@ -22,13 +22,15 @@ function Popular() {
     <div>
       <Wrapper>
         <h3>Popular Picks</h3>
-        <Splide options={{
-          perPage:4,
-          arrows:false,
-          pagination:false,
-          drag:'free',
-          gap:'5rem'
-          }}>
+        <Splide
+          options={{
+            perPage: 4,
+            arrows: false,
+            pagination: false,
+            drag: "free",
+            gap: "5rem",
+          }}
+        >
           {popular.map((recipe) => {
             return (
               <SplideSlide>
