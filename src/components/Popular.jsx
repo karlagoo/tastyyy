@@ -8,7 +8,7 @@ function Popular() {
 
   useEffect(() => {
     getPopular();
-  }, []);
+  },[]);
 
   const isJson = (str) => {
     try {
