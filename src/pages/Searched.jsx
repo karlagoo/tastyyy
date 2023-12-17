@@ -2,7 +2,7 @@ import React from 'react'
 
 function Searched() {
   return (
-    <div>Searched</div>
+    <div>This is the searched page</div>
   )
 }
 
