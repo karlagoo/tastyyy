@@ -70,7 +70,6 @@ const DetailWrapper = styled.div`
   li {
     font-size: 1.2rem;
     line-height: 2.5rem;
-    list-style-type: none;
   }
   ul {
     margin-top: 2rem;
