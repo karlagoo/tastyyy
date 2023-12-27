@@ -70,9 +70,13 @@ const DetailWrapper = styled.div`
   li {
     font-size: 1.2rem;
     line-height: 2.5rem;
+    list-style-type: none;
   }
   ul {
     margin-top: 2rem;
+  }
+  img{
+    padding-right: 2rem;
   }
 `
 
@@ -82,11 +86,12 @@ const Button = styled.button`
   background: white;
   border: 2px solid black;
   margin-right: 2rem;
+  margin-bottom:2rem;
   font-weight: 600;
-`;
+`
 
 const Info = styled.div`
   margin-left = 10 rem;
-`;
+`
 
 export default Recipe;
